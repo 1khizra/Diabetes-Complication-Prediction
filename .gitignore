@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Local databases and patient data
+*.db
+*.sqlite
+*.sqlite3
+patients_data.csv
+patients.csv
+
+# Private/local datasets
+*.xlsx
+*.xls
+*.csv
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
