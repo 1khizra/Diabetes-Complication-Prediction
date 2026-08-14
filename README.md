@@ -96,105 +96,51 @@ The application integrates the **Gemini API** to provide an AI-assisted interact
 
 ---
 
-## 🔬 Project Workflow
-
-The complete system follows a multi-stage workflow based on the project's implemented prediction framework:
-
-```text
-Start
-  │
-  ▼
-Collect Patient Data
-  │
-  ▼
-Validate Input Data
-  │
-  ▼
-Load Trained ML Models
-  │
-  ▼
-Is Diabetes Detected?
-  │
-  ├── No ──► Non-Diabetic
-  │             │
-  │             ▼
-  │       Maintain Healthy Lifestyle
-  │
-  └── Yes
-        │
-        ▼
-   Stage Assessment
-        │
-        ├── Normoglycemic
-        │
-        ├── Prediabetes
-        │
-        └── Diabetes Mellitus
-                    │
-                    ▼
-          Identify Etiological Status
-                    │
-                    ├── Type 1
-                    ├── Type 2
-                    ├── Gestational
-                    └── Secondary
-                    │
-                    ▼
-          Complication Assessment
-                    │
-                    ▼
-              Any Complications?
-                    │
-                    ├── No
-                    │
-                    └── Yes
-                          │
-                          ▼
-                 Identify Complications
-                          │
-                          ├── Retinopathy
-                          ├── Nephropathy
-                          ├── Neuropathy
-                          ├── Cardiovascular Disease
-                          └── Foot Ulcer
-                          │
-                          ▼
-                 Generate Patient Report
-                          │
-                          ▼
-                Future Management
-
-📋 System Flowchart
+## 📋 System Flowchart
 
 The following flowchart represents the complete prediction and management workflow of the Final Year Project.
 
-🧠 Machine Learning Models
+![Project Flowchart](flowchart.png)
 
-The trained Machine Learning models used by the application are stored in the ml_models directory.
+---
 
+## 🧠 Machine Learning Models
+
+The trained Machine Learning models used by the application are stored in the `ml_models` directory.
+
+```text
 ml_models/
 ├── step1.pkl
 ├── step2.pkl
 └── step3.pkl
+```
 
 These models are integrated into the application's multi-stage prediction workflow.
 
-🛠️ Technology Stack
-Category	Technologies
-Programming Language	Python
-Machine Learning	Scikit-learn
-Data Processing	Pandas, NumPy
-Model Serialization	Joblib
-User Interface	Streamlit
-Data Visualization	Plotly
-Database	SQLite3
-AI Integration	Gemini API
-Report Generation	ReportLab
-Version Control	GitHub
-🏗️ System Components
+---
+
+## 🛠️ Technology Stack
+
+| Category | Technologies |
+|---|---|
+| Programming Language | Python |
+| Machine Learning | Scikit-learn |
+| Data Processing | Pandas, NumPy |
+| Model Serialization | Joblib |
+| User Interface | Streamlit |
+| Data Visualization | Plotly |
+| Database | SQLite3 |
+| AI Integration | Gemini API |
+| Report Generation | ReportLab |
+| Version Control | GitHub |
+
+---
+
+## 🏗️ System Components
 
 The application consists of several major components:
 
+```text
 Authentication
      │
      ▼
@@ -218,7 +164,13 @@ Dashboard
      ├── Analytics
      │
      └── AI-Assisted Interaction
-📂 Project Structure
+```
+
+---
+
+## 📂 Project Structure
+
+```text
 Diabetes-Complication-Prediction/
 │
 ├── ml.py
@@ -232,50 +184,63 @@ Diabetes-Complication-Prediction/
     ├── step1.pkl
     ├── step2.pkl
     └── step3.pkl
-📊 Project Highlights
-Multi-stage Machine Learning prediction framework
-Diabetes detection
-Diabetes stage assessment
-Etiological type identification
-Diabetes complication assessment
-Retinopathy prediction
-Nephropathy prediction
-Neuropathy prediction
-Cardiovascular disease assessment
-Foot ulcer assessment
-Patient management
-Prediction history
-Analytics and data visualization
-Patient report generation
-AI-assisted interaction
-SQLite3 database integration
-Streamlit-based healthcare application
-🎓 Final Year Project
+```
 
-Project Title
+---
 
-Machine Learning Based Diabetes Complication Prediction Framework
+## 📊 Project Highlights
 
-Project Type
+- Multi-stage Machine Learning prediction framework
+- Diabetes detection
+- Diabetes stage assessment
+- Etiological type identification
+- Diabetes complication assessment
+- Retinopathy prediction
+- Nephropathy prediction
+- Neuropathy prediction
+- Cardiovascular disease assessment
+- Foot ulcer assessment
+- Patient management
+- Prediction history
+- Analytics and data visualization
+- Patient report generation
+- AI-assisted interaction
+- SQLite3 database integration
+- Streamlit-based healthcare application
+
+---
+
+## 🎓 Final Year Project
+
+**Project Title**
+
+**Machine Learning Based Diabetes Complication Prediction Framework**
+
+**Project Type**
 
 Final Year Project (FYP)
 
-Domain
+**Domain**
 
 Machine Learning | Artificial Intelligence | Healthcare
 
-Primary Technologies
+**Primary Technologies**
 
 Python | Scikit-learn | Streamlit | SQLite3 | Gemini API
 
-👩‍💻 Author
+---
 
-Khizra
+## 👩‍💻 Author
 
-GitHub:
+**Khizra**
+
+GitHub:  
 https://github.com/1khizra
 
-<p align="center"> <strong>Machine Learning • Artificial Intelligence • Healthcare Technology</strong> </p> ```
-                          │
+---
+
+<p align="center">
+  <strong>Machine Learning • Artificial Intelligence • Healthcare Technology</strong>
+</p>
                           ▼
                          End
