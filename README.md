@@ -127,10 +127,10 @@ The following flowchart represents the complete prediction and management workfl
 
 ## 🧠 Machine Learning Models
 
-The trained Machine Learning models used by the application are stored in the `ml_models` directory.
+The trained Machine Learning models used by the application are stored in the `models` directory.
 
 ```text
-ml_models/
+models/
 ├── step1.pkl
 ├── step2.pkl
 └── step3.pkl
@@ -201,7 +201,7 @@ Diabetes-Complication-Prediction/
 ├── README.md
 ├── flowchart.png
 │
-└── ml_models/
+└── models/
     ├── step1.pkl
     ├── step2.pkl
     └── step3.pkl
