@@ -95,31 +95,27 @@ The framework generates patient-oriented reports containing relevant prediction 
 The application integrates the **Gemini API** to provide an AI-assisted interaction component.
 
 ---
-Screenshots
-Login Interface
+## Screenshots
 
+### Login Interface
 The DiabetesCare login interface provides authenticated access to the prediction and management features of the system.
 
+![DiabetesCare Login Interface](screenshots/login.png)
 
-
-
-Dashboard
-
+### Dashboard
 The interactive dashboard provides an overview of patient records, prediction statistics, recent cases, and diabetes prediction results.
 
+![DiabetesCare Dashboard](screenshots/dashboard.png)
 
-
-
-ML Prediction Results
-
+### ML Prediction Results
 The prediction interface displays diabetes classification, risk score, disease stage, predicted complications, and generated recommendations.
 
+![DiabetesCare ML Prediction Results](screenshots/prediction-results.png)
 
-
-
-Prediction History & Reports
-
+### Prediction History & Reports
 The reporting interface presents prediction history, laboratory results, diabetes classification, and generated recommendations.
+
+![DiabetesCare Reports and Prediction History](screenshots/reports.png)
 
 ## 📋 System Flowchart
 
